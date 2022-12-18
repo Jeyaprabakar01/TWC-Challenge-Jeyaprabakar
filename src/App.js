@@ -9,25 +9,6 @@ function App() {
       <Navbar />
       <Hero />
       <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
-      <MidContainer />
     </div>
   );
 }

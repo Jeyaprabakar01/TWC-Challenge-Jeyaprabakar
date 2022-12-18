@@ -1,0 +1,42 @@
+.mid-container {
+  margin: 0;
+  height: 750px;
+
+  position: relative;
+}
+
+.top-left {
+  width: 700px;
+  height: 65%;
+  position: absolute;
+  top: 130px;
+  left: 160px;
+}
+
+.bottom-right {
+  background-color: white;
+  color: black;
+  width: 550px;
+  height: 40%;
+  position: absolute;
+  top: 300px;
+  right: 80px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 60px;
+}
+
+.bottom-right h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 52px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.bottom-right p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: hsl(0, 0%, 55%);
+  font-weight: bold;
+}
