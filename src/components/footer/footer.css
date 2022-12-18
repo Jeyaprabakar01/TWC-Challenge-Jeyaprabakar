@@ -33,6 +33,11 @@
   list-style: none;
 }
 
+.nav-link li:hover {
+  cursor: pointer;
+  border-bottom: 3px solid white;
+}
+
 .footer-right {
   flex: 1;
   display: flex;
@@ -45,6 +50,11 @@
   align-items: center;
   gap: 15px;
   padding-left: 430px;
+}
+
+.social-media img:hover {
+  cursor: pointer;
+  border-bottom: 3px solid white;
 }
 
 .copyright {

@@ -28,3 +28,8 @@
 .right li {
   list-style: none;
 }
+
+.right li:hover {
+  cursor: pointer;
+  border-bottom: 3px solid white;
+}
