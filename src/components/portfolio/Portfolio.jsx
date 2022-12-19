@@ -1,6 +1,8 @@
 import "./portfolio.css";
 import React from "react";
 import CardRow from "../card/CardRow";
+import { cartArr1 } from "../../data/CartData";
+import { cartArr2 } from "../../data/CartData";
 
 const Portfolio = () => {
   return (
@@ -13,7 +15,8 @@ const Portfolio = () => {
       </div>
 
       <div className="portfolio-card">
-        <CardRow />
+        <CardRow cartArr={cartArr1} />
+        <CardRow cartArr={cartArr2} />
       </div>
     </div>
   );
