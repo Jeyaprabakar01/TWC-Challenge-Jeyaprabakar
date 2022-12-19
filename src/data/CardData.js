@@ -7,7 +7,7 @@ import Img6 from "../assets/image-pocket-borealis.jpg";
 import Img7 from "../assets/image-curiosity.jpg";
 import Img8 from "../assets/image-fisheye.jpg";
 
-export const cartArr1 = [
+export const cardArr1 = [
   {
     img: Img1,
     title: "DEEP EARTH",
@@ -26,7 +26,7 @@ export const cartArr1 = [
   },
 ];
 
-export const cartArr2 = [
+export const cardArr2 = [
   {
     img: Img5,
     title: "FROM UP ABOVE VR",

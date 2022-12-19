@@ -6,7 +6,7 @@ const CardRow = (props) => {
   return (
     <div>
       <div className="card-row">
-        {props.cartArr.map(({ img, title }) => {
+        {props.cardArr.map(({ img, title }) => {
           return <Card Img={img} Title={title} />;
         })}
       </div>
